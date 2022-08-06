@@ -1,0 +1,416 @@
+ /**************************Body*************/
+ body {
+    background-color: #090d19;
+    color: rgb(255, 255, 255);
+    font-family: 'Cormorant SC', serif;
+    background-image: url(BG.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* overflow-x: hidden; */
+}
+ #headunderline {
+    height: 2px;
+    background-color: yellow;
+    
+}
+
+ /**************************Navication******************/
+ .navbar{
+    background-color: #090d19;
+    background-image: url(BG.jpg);
+    z-index: 1;
+    position: sticky;
+ }
+ .navbar ul{
+    display: flex;
+    margin-left: 5%;
+    list-style: none;
+ }
+ .navbar ul li{
+    margin-left: 15px;
+    background-size: contain;
+    box-shadow: -30px 10px 30px #17203a;
+    font-size: larger;
+    margin-top: 3%;
+    margin-left: 10%;
+ }
+ .navbar ul li a:hover {
+    text-decoration-color: yellow;
+    color: yellow;
+    font-size: 20px;
+    font-weight: 800;
+    font-size: x-large;
+}
+ /*.nav1 {
+    color: aliceblue;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    list-style-type: none;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-block-end: 0%;
+    margin-right: 0px;
+    position: sticky;
+    top: 0;
+    background-color: #090d19;
+    background-image: url(BG.jpg);
+    z-index: 1;
+}
+
+ul a {
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.nav1 UL {
+    display: flex;
+    padding-left: 50px;
+    list-style: none;
+    margin-left: 120px;
+
+}
+
+.nav1 ul li {
+    margin-left: 15px;
+    background-size: contain;
+    box-shadow: -30px 10px 30px #17203a;
+    font-size: larger;
+
+}
+
+.nav1 ul li a:hover {
+    text-decoration-color: yellow;
+    color: yellow;
+    font-size: 20px;
+    font-weight: 800;
+    font-size: x-large;
+
+}
+
+#logo {
+    color: rgb(255, 255, 0);
+    margin-top: 0px;
+    margin-left: 0px;
+    font-size: 30px;
+}
+
+ /*****************************Home************************/
+ .container{
+    margin-top: 9%;
+ }
+#name {
+     color: rgb(255, 255, 112);
+ }
+ #home{
+    color: rgb(255, 255, 112);
+ }
+ .homeicon ul li {
+    list-style-type: none;
+    display: inline;
+}
+.homeicon ul li i {
+    color: rgb(255, 255, 112);
+    font-size: 23px;
+}
+.homeicon ul li i:hover {
+    color: white;
+    font-size: 30px;
+}
+/* #profileImg {
+     width: 150px;
+     height: 150px;
+     margin-left: 600px;
+     margin-top: 150px;
+     margin-bottom: 20px;
+     box-shadow: -30px 10px 50px #17203a;
+ }
+
+ #home {
+     text-align: center;
+     color: rgb(255, 255, 255);
+ }
+
+ #home1 {
+     text-align: center;
+ }
+
+ #name {
+     color: rgb(255, 255, 112);
+ }
+
+ .homeicon ul li {
+     list-style-type: none;
+     display: inline;
+     padding: 10px;
+ }
+
+ .homeicon ul li i {
+     color: rgb(255, 255, 112);
+     font-size: 23px;
+ }
+
+ .homeicon ul li i:hover {
+     color: white;
+     font-size: 30px;
+ }
+
+ .homeicon ul {
+     margin-top: 20px;
+     margin-left: 600px;
+ }
+
+ .homeicon ul li a:hover {
+     color: rgb(255, 255, 112);
+ }*/
+
+ /****************************about**************************/
+ #about {
+    text-align: center;
+    color: rgb(255, 255, 112);
+   margin-top: 15%;
+}
+#aboutimg {
+    box-shadow: -30px 10px 50px #17203a;
+}
+#aboutdb {
+    background-color: yellow;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 6px 2px;
+    margin-top: 10px;
+    margin-left: 60px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-weight: bolder;
+    box-shadow: -30px 10px 50px #17203a;
+}
+#aboutdb {
+    background-color: #090d19;
+    color: #ffffff;
+    border: 2px solid rgb(255, 255, 255);
+
+}
+
+#aboutdb:hover {
+    background-color: rgb(255, 255, 78);
+    color: rgb(2, 2, 2);
+}
+.col-sm-8 span {
+    color: rgb(245, 245, 168);
+    font-weight: 550;
+}
+.col-sm-8 ul {
+    list-style-type: none;
+}
+ /*#about {
+     text-align: center;
+     color: rgb(255, 255, 112);
+     margin-top: 200%;
+ }
+
+ #aboutimg {
+     width: 400px;
+     height: 400px;
+     margin-top: 50px;
+     margin-left: 200px;
+     min-height: 550px;
+     float: left;
+     box-shadow: -30px 10px 50px #17203a;
+ }
+
+ #aboutdb {
+     background-color: yellow;
+     border: none;
+     color: rgb(255, 255, 255);
+     padding: 8px 16px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     margin: 6px 2px;
+     margin-top: 10px;
+     transition-duration: 0.4s;
+     cursor: pointer;
+     font-weight: bolder;
+     box-shadow: -30px 10px 50px #17203a;
+ }
+
+ #aboutdb {
+     background-color: #090d19;
+     color: #ffffff;
+     border: 2px solid rgb(255, 255, 255);
+
+ }
+
+ #aboutdb:hover {
+     background-color: rgb(255, 255, 78);
+     color: rgb(2, 2, 2);
+ }
+
+ .col-md-6 {
+     margin-top: 50px;
+     margin-left: px;
+ }
+
+ .col-md-6 span {
+     color: rgb(245, 245, 168);
+     font-weight: 550;
+ }
+
+ .col-md-6 ul {
+     list-style-type: none;
+ }*/
+
+ /*************************service*************************/
+ #service {
+    text-align: center;
+    color: rgb(255, 255, 112);
+}
+#e {
+    background-color: #090d19;
+    border: 1px solid #17203a;
+    box-shadow: -30px 10px 50px #17203a;
+}
+.card:hover {
+    color: rgb(255, 255, 112);
+}
+.row {
+    display: flex;
+}
+.card i {
+    font-size: 60px;
+    color: #17203a;
+
+}
+ /*#service {
+     text-align: center;
+     color: rgb(255, 255, 112);
+     margin-top: 70px;
+ }
+
+ #e {
+     width: 300px;
+     height: 300px;
+     background-color: #090d19;
+     border: 3px solid #17203a;
+     margin-left: 100px;
+     margin-top: 100px;
+     box-shadow: -30px 10px 50px #17203a;
+ }
+
+ .card:hover {
+     color: rgb(255, 255, 112);
+ }
+
+ .row {
+     display: flex;
+
+ }
+
+ .card i {
+     font-size: 100px;
+     color: #17203a;
+     margin-left: 70px;
+     margin-top: 30px;
+
+ }
+
+ .card i:hover {
+     color: rgb(255, 255, 112);
+ }
+
+ .card h3 {
+     margin-left: 50px;
+     color: rgb(126, 116, 116);
+     font-weight: bolder;
+ }
+
+ .card p span {
+     color: rgb(255, 255, 112);
+ }
+
+ /****************************MySkill***********************/
+ /*#MySkills {
+     text-align: center;
+     color: rgb(255, 255, 112);
+     margin-top: 100px;
+ }
+
+ #d {
+     padding-top: 20px;
+     background-color: #090d19;
+     border: 3px solid #17203a;
+     box-shadow: -30px 10px 50px #17203a;
+
+ }
+
+ .progress {
+     width: 600px;
+     height: 3px;
+     margin-top: 30px;
+     background-color: #17203a;
+ }
+
+ /**************************Resume************************/
+ /*#resume {
+     text-align: center;
+     color: rgb(255, 255, 112);
+     margin-top: 70px;
+ }
+
+ .vl {
+     border-left: 2px solid rgb(126, 116, 116);
+     height: 600px;
+     margin-left: 70px;
+     flex-flow: row;
+ }
+*/
+ /**********************Portfolio***************************/
+ /*#protfolio {
+     text-align: center;
+     color: rgb(255, 255, 112);
+     margin-top: 70px;
+ }
+
+ #ef {
+     width: 300px;
+     height: 300px;
+     background-color: #090d19;
+     border: 3px solid #17203a;
+     margin-left: 100px;
+     margin-top: 100px;
+     box-shadow: -30px 10px 50px #17203a;
+ }
+*/
+ /********************blog*********************************/
+ /*#blog {
+     text-align: center;
+     color: rgb(255, 255, 112);
+     margin-top: 70px;
+ }
+*/
+ /**********************Contact***********************************/
+ /*#contact {
+     text-align: center;
+     color: rgb(255, 255, 112);
+     margin-top: 70px;
+ }
+
+ form .form-group {
+     color: #17203a;
+     margin-top: 40px;
+ }
+
+ .vlc {
+     border-left: 2px solid rgb(126, 116, 116);
+     height: 450px;
+     margin-left: 70px;
+     flex-flow: row;
+ }*/
