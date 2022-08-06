@@ -18,8 +18,8 @@
  .navbar{
     background-color: #090d19;
     background-image: url(BG.jpg);
-    z-index: 1;
     position: sticky;
+    z-index: 1;
  }
  .navbar ul{
     display: flex;
@@ -272,11 +272,14 @@ ul a {
  #service {
     text-align: center;
     color: rgb(255, 255, 112);
+    margin-bottom: -800px;
+    margin-top: -10px;
 }
-#e {
+#e{
     background-color: #090d19;
     border: 1px solid #17203a;
     box-shadow: -30px 10px 50px #17203a;
+    margin-top: 9%;
 }
 .card:hover {
     color: rgb(255, 255, 112);
@@ -285,9 +288,23 @@ ul a {
     display: flex;
 }
 .card i {
-    font-size: 60px;
+    font-size: 110px;
     color: #17203a;
+    margin-top:10%;
+    margin-bottom: 10%;
+    margin-left: 25%;
+}
+.card i:hover {
+    color: rgb(255, 255, 112);
+}
 
+.card h3 {
+    color: rgb(126, 116, 116);
+    font-weight: bolder;
+}
+
+.card p span {
+    color: rgb(255, 255, 112);
 }
  /*#service {
      text-align: center;
@@ -337,6 +354,23 @@ ul a {
  }
 
  /****************************MySkill***********************/
+ #MySkills {
+    color: rgb(255, 255, 112);
+    margin-bottom: 20%;
+    text-align: center;
+}
+#d {
+    padding-top: 20px;
+    background-color: #090d19;
+    border: 3px solid #17203a;
+    box-shadow: -30px 10px 50px #17203a;
+}
+.progress {
+    width: 100%;
+    height: 3px;
+    margin-top: 30px;
+    background-color: #17203a;
+}
  /*#MySkills {
      text-align: center;
      color: rgb(255, 255, 112);
@@ -359,6 +393,14 @@ ul a {
  }
 
  /**************************Resume************************/
+ #Resume{
+    text-align: center;
+    color: rgb(255, 255, 112);
+}
+ .vl {
+    border-left: 2px solid rgb(126, 116, 116);
+    height: 550px;
+}
  /*#resume {
      text-align: center;
      color: rgb(255, 255, 112);
